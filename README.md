@@ -13,3 +13,5 @@ To get missing .env files, these are the files you need:
    PORT
 
 below each file are the parameters they should contain, the names should be self explanitory.
+
+Place all the files inside a config folder inside the root of src folder
