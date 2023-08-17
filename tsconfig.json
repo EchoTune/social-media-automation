@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "NodeNext",
+    "outDir": "./src/js", // Output to the 'js' folder in the parent directory
+    "rootDir": "./src/ts", // TypeScript files are in the current directory
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+  },
+  "include": [
+    "./**/*.ts"
+  ],
+}
