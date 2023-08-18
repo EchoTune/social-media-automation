@@ -4,15 +4,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stefan Social Media Automation</title>
+    <title>Echotune SMA App</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="loader.css">
+    <script src="js/main.js" defer type="module"></script>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
 </head>
 
 <body>
     <div class="display-controller">
         <div class="container">
+            <div class="container-config">
+                <div class="inner-container" id="container-inner-1">
+                    <h2>Generate Video Scripts</h2>
+                    <button id="generate">Generate</button>
+                </div>
+                <div class="inner-container">
+                    <h2>View Social Media</h2>
+                    <div class="anchor-elements">
+                        <a href="http://" target="_blank" rel="noopener noreferrer">TikTok</a>
+                        <a href="http://" target="_blank" rel="noopener noreferrer">Instagram</a>
+                        <a href="http://" target="_blank" rel="noopener noreferrer">YouTube</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-config">
+                <div class="inner-container" id="container-inner-2">
+                    <h2>Make TTS for each script</h2>
+                    <button id="makeTTS">Make TTS</button>
+                </div>
+                <div class="inner-container">
+                    <h2>Audio Folder Path</h2>
+                    <button id="pathButton">Copy Path</button>
+                </div>
+            </div>
         </div>
-        <div class="terminal">
+        <div class="terminal" id="terminal">
         </div>
     </div>
 </body>
